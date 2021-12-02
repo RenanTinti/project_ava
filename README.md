@@ -1,2 +1,4 @@
 # project_ava
-Some classes of basic web development skills.
+A website with some YoutTube videos of basic web development skills. All pages were built with HTML, CSS and Javascript.
+
+(pt-br)
