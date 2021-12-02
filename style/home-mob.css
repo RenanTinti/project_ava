@@ -1,0 +1,12 @@
+#title {
+    font-size: 0.8rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.panel {
+    flex-wrap: wrap;
+}

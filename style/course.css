@@ -1,0 +1,40 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+iframe {
+    margin-top: 4px;
+    width: 840px;
+    height: 472.5px;
+}
+
+ul {
+    list-style-type: none;
+    width: 480px;
+    margin-left: 20px;
+    height: 472px;
+    overflow: auto;
+}
+
+ul li {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+ul li:hover {
+    background-color: white;
+    color: #333;
+    cursor: pointer;
+}
+
+.video-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 15px;
+}

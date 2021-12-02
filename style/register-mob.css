@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.panel {
+    display: table;
+    flex-wrap: wrap;
+    width: 94%;
+    height: 350px;
+}

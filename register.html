@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/ava-logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/register.css">
+    <link rel="stylesheet" href="style/register-mob.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <title>Cadastro - Ambiente Virtual de Aprendizagem</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="register.html">Cadastro</a>
+        <a href="about.html">Sobre nós</a>
+        <a class="home" href="index.html">Home</a>
+    </nav>
+
+    <section class="presentation">
+        <img id="logo" src="img/favicon.ico" alt="AVA logo">
+        <div class="text">
+            <p id="title">Cadastre-se para acompanhar as aulas</p>
+            <p id="subtitle">Ou acesse sua conta</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="panel register">
+            <div class="title">
+                Cadastro
+            </div>
+            <form>
+                <label for="name">Nome completo</label><br>
+                <input type="text" name="name" maxlength="50" size="50" required value=""><br><br>
+                <label for="email">E-mail</label><br>
+                <input type="email" name="email" max="50" size="50" required value=""><br><br>
+                <label for="password">Senha</label><br>
+                <input id="password" type="password" name="password" max="20" size="20" required value=""><br><br>
+                <label for="c-password">Confirme sua senha</label><br>
+                <input id="c-password" type="password" name="c-password" max="20" size="20" required value="">
+                <input class="btn" type="submit" value="Cadastrar" onclick="RegisterCheck()">
+            </form>
+        </div>
+        <div class="panel login">
+            <div class="title">
+                Login
+            </div>
+            <form>
+                <label for="r-email">Insira seu e-mail</label><br>
+                <input id="email" type="email" name="r-email" max="50" size="50" required><br><br>
+                <label for="r-password">Insira sua senha</label><br>
+                <input id="password" type="password" name="r-password" max="50" size="50" required><br><br>
+                <a href="password.html">Esqueceu sua senha?</a>
+                <input class="btn" type="submit" value="Entrar" onclick="LoginCheck()">
+            </form>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p>Desenvolvido com &#128154 por Renan Tinti</p>
+    </footer>
+    <script src="script/register.js"></script>
+</body>
+
+</html>
